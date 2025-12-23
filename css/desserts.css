@@ -15,7 +15,6 @@
 
 .quantity_popup {
     
-    width: 70%;
     background-color: rgb(242, 238, 255);
     border: 2px black solid;
     border-radius: 50px;
@@ -41,7 +40,7 @@
 } 
 
 .quantity_popup img {
-    width: 100%;
+    width: 250px;
     object-fit: contain;
     border-radius: 17px;
     margin-bottom: 20px;
