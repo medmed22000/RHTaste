@@ -118,15 +118,15 @@ button{
     gap: 15px;
 }
 .quantity-selector > span {
-    font-size: 22px;
+    font-size: 20px;
 }
 .quantity-selector > button {
     border-radius: 50%;
     background-color: black;
     color: white;
     font-size: 20px;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border: none;
     box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.433);
 
@@ -167,16 +167,16 @@ button{
     justify-content: center;
 
 
-    height: 60px;
+    height: 50px;
     width: max-content;
     border-radius: 50px;
     border: none;
 
-    font-size: 20px;
+    font-size: 17px;
     font-family:'Times New Roman', Times, serif;
 
-    margin-top: 25px;
-    margin-bottom: 60px ;
+    margin-top: 22px;
+    margin-bottom: 50px ;
 
     padding-left: 25px;
     padding-right: 25px;
@@ -208,7 +208,21 @@ button{
 
 
 
+    #containner_desserts #item_menu > div {
+        width: 240px;
 
+    }
+
+    #containner_desserts #item_menu > div img {
+        width: 240px;
+    }
+    #containner_desserts #item_menu > div .title {
+        font-size: 15px;
+    }
+
+    #item_menu > div .discription {
+        font-size: 13px;
+    }
 
 
 
@@ -290,6 +304,16 @@ button{
     /* Pop-up adjustments for desktop */
 
 
+    #containner_desserts #item_menu > div {
+        width: 300px;
+
+    }
+
+    #containner_desserts #item_menu > div img {
+        width: 300px;
+    }
+
+
 }
 
 @media (min-width: 1024px) {
@@ -302,9 +326,19 @@ button{
 
 
 
-    .tacos_size > div > div , .extra > div > div > div , .supplements > div > div {
+    .meat_cook > div > div , .extra > div > div > div , .supplements > div > div {
         width: 20vw;
         height: 15vw;
     }
+
+    #containner_desserts #item_menu > div {
+        width: 300px;
+
+    }
+
+    #containner_desserts #item_menu > div img {
+        width: 300px;
+    }
+
 }
 
