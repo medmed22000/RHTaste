@@ -193,58 +193,6 @@ body {
 }
 
 
-@keyframes scroller {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-250px * 1));
-    }
-}
-
-@media (min-width: 650px) {
-    #nav_barr  > div{
-        height: 80px;
-    }
-
-    #new_products img {
-        width: 22vw;
-    }
-    #menus > div {
-        height: 22vw;
-        width: 18vw;
-    }
-    #menus p {
-        font-size: 2vw;
-    }
-    #menus > div > div {
-        width: 18vw;
-        height: 18vw;
-    }
-}
-
-
-
-
-
-
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:24% 0%}
-    50%{background-position:77% 100%}
-    100%{background-position:24% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:24% 0%}
-    50%{background-position:77% 100%}
-    100%{background-position:24% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:24% 0%}
-    50%{background-position:77% 100%}
-    100%{background-position:24% 0%}
-}
-
 @keyframes scale {
     0% {
         transform: scale(1);
