@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const REPO_OWNER = 'medmed22000'; // Replace with your username
     const REPO_NAME = 'RHTaste'; // Replace with your repository name
     const GITHUB_TOKEN = 'ghp_0mKIcFu00TzOSXq7]q4KsVA8bCD6tZ118fpy'; // Replace with your token
-    const STOCK_FILE_PATH = 'data/stock.json';
+    const STOCK_FILE_PATH = './stock.json';
 
     let stockItems = {};
     let localStockChanges = []; // Track changes before pushing to GitHub
