@@ -1,0 +1,10 @@
+{
+  "raib": { "stock": 10, "name": "Raib" },
+  "flan": { "stock": 0, "name": "Flan" },
+  "burger-classic": { "stock": 20, "name": "Burger Classic" },
+  "burger-double": { "stock": 15, "name": "Burger Double" },
+  "tacos-m": { "stock": 25, "name": "Tacos M" },
+  "tacos-l": { "stock": 15, "name": "Tacos L" },
+  "coca-33cl": { "stock": 30, "name": "Coca 33cl" },
+  "frites": { "stock": 50, "name": "Frites" }
+}
