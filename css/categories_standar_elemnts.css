@@ -4,7 +4,12 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 50px;
 }
-
+/* Sold out items - slightly faded */
+.disabled-div {
+    opacity: 0.6;
+    pointer-events: none;
+    cursor: not-allowed;
+}
 
 #item_menu {
     width: 70%;
